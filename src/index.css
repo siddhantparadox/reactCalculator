@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("./fonts/Helvetica 400.ttf");
+}
+
+* {
+  font-family: "Helvetica", monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #d3d3d3;
+  background: linear-gradient(to bottom, #434343, #000000);
+}
